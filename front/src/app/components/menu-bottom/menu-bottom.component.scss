@@ -1,0 +1,45 @@
+.wrapper-menu {
+    background:#1A1C1D;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.list-menu {
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list-menu .btn-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1.5rem 1rem;
+    border-radius: .5rem;
+    transition: all ease 300ms;
+
+    &:hover {
+        background: rgb(255 255 255 / 22%);
+    }
+}
+
+button {
+    display: grid;
+    cursor: pointer;
+    background: transparent ;
+    border: 0;
+    color: white;
+}
+
+.list-menu .btn-menu .uil {
+    color: white;
+    font-size: 1.7rem;
+}
